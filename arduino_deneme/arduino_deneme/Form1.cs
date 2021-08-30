@@ -56,7 +56,7 @@ namespace arduino_deneme
 
             try
             {
-                serialPort1.Close();              //Seri portu kapa
+                serialPort1.Close();              //Seri portu kapat
                 kes.Enabled = false;              //"Kes" butonunu tıklanamaz yap
                 baglan.Enabled = true;            //"BağlanKes" butonunu tıklanabilir yap
                 label3.Text = "Bağlantı kesildi";
